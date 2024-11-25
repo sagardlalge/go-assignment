@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	var name = `welcome to sagars family`
+	var name = `welcome to the family`
 	fmt.Println(name)
 
 	var income = 65000
