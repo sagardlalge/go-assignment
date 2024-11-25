@@ -1,24 +1,16 @@
 package main
 
-import (
-"fmt"
-"math"
+import "fmt"
 
-)
+func main() {
 
-func add (a,b,float64) 
-{
-	return a + b
-}
+	var num1, num2 float64
+	fmt.Printf("Enter the first number :")
+	fmt.Scanln(&num1)
 
-func main()
+	fmt.Printf("Enter the Second Number :")
+	fmt.Scanln(&num2)
 
-{
-	fmt.Println("addition")
-
-
-	fmt.Print("Enter first number: ")
-	fmt.Scan(&num1)
-	fmt.Print("Enter second number: ")
-	fmt.Scan(&num2)
+	//fmt.Printf("Addition is :", num1+num2)
+	fmt.Printf("Addition is: %.f\n", num1+num2)
 }
